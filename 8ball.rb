@@ -12,8 +12,6 @@ request = [
   "Кто вопрошает, тот получит ответ:",
   "Здравствуй, смертный. Сегодня для тебя такой ответ:"
 ]
-puts request.sample
-sleep 5
 
 answers = [
   # Положительные
@@ -44,5 +42,8 @@ answers = [
   "Перспективы не очень хорошие",
   "Весьма сомнительно"
 ]
+
+puts request.sample
+sleep 5
 
 puts answers.sample
